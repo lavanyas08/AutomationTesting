@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNGListenerSuite">
+  <listeners>
+    <listener class-name="com.example.day_9.Listeners"/>
+  </listeners>
+  <test name="day9_2_3">
+    <classes>
+      <class name="com.example.day_9.day9_2_3">
+        <methods>
+          <include name="task1" />
+          <include name="task2" />
+          <include name="task3" />
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
+
